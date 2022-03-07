@@ -4,7 +4,7 @@ import sys
 
 # The first thing we need to do is import TOSSIM and create a TOSSIM object
 t = Tossim([])
-r = t.radio() #Turning the radio transmitter ON.
+r = t.radio() #Turning the radio ON.
 m = t.mac()
 #create files to write output
 logboot = open("logBoot.txt", "w")
