@@ -1,0 +1,9 @@
+COMPONENT=Proj1AppC
+
+PFLAGS+=-DRF230_DEF_RFPOWER=0xF
+
+TINYOS_ROOT_DIR?=../..
+
+include $(TINYOS_ROOT_DIR)/Makefile.include
+
+
