@@ -7,8 +7,8 @@ t = Tossim([])
 r = t.radio() #Turning the radio ON.
 m = t.mac()
 #create files to write output
-logboot = open("logBoot.txt", "w")
-logapp = open("logApp.txt", "w")
+logboot = open("BootLog.txt", "w")
+logapp = open("Applog.txt", "w")
 
 # open topology file and read
 f = open("topo.txt", "r")
